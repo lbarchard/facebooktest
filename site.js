@@ -15,12 +15,15 @@ $( document ).ready( function () {
 //      fjs.parentNode.insertBefore(js, fjs);
 //    }(document, 'script', 'facebook-jssdk')); 
 	
-   	$("#facebook_button").on("click", FB.ui(
- {
-  method: 'share',
-  href: 'https://developers.facebook.com/docs/'
-}, function(response){});
-
+	$("#facebook_button").on("click", function(test){
+         FB.ui(
+	 		{
+			method: 'share',
+			href: 'https://developers.facebook.com/docs/'
+			}, function(response){});
+  	});
+   
+	
 
 
 });
