@@ -2,6 +2,13 @@
 /*browser:true*/
 
 $( document ).ready( function () {
+	window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '139005159958824',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+
 	// "use strict";
 	//get rid of all that old stuff
 	//window.location = "http://gt.bootcampcontent.com/pineapplesoda/project-one";
