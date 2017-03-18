@@ -7,10 +7,6 @@ $( document ).ready( function () {
 	//window.location = "http://gt.bootcampcontent.com/pineapplesoda/project-one";
 	//redirect to gitlab readme until we actually have something to serve up
 
-$('#add-user').on("click", function(event){
-  	event.preventDefault();
-
-
 	$("#facebook_button").on("click") function(d, s, id){
      var js, fjs = d.getElementsByTagName(s)[0];
      if (d.getElementById(id)) {return;}
