@@ -2,7 +2,7 @@
 /*browser:true*/
 
 $( document ).ready( function () {
-	"use strict";
+	// "use strict";
 	//get rid of all that old stuff
 	//window.location = "http://gt.bootcampcontent.com/pineapplesoda/project-one";
 	//redirect to gitlab readme until we actually have something to serve up
